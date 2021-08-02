@@ -1,0 +1,14 @@
+
+PL/SQL procedure successfully completed.
+
+
+Table created.
+
+
+Sequence created.
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ TOLKIEN_ID                                         NUMBER
+ TOLKIEN_CHARACTER                                  BASE_T
+

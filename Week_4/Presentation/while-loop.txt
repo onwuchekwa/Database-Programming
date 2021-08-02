@@ -1,0 +1,36 @@
+SET VERIFY OFF
+SET SERVEROUTPUT ON SIZE UNLIMITED
+
+DECLARE
+  v_counter  NUMBER := 0; -- Declaring the variable
+  v_result NUMBER; -- This holds the result of the product of 5 and the counter
+BEGIN
+  WHILE v_counter <= 12 -- Keyword 'WHILE' marks the beginning of the loop, and it also checks whether the value of 'v_counter' is less than or equal to 12
+    LOOP
+      v_result := 5 * v_counter; -- Pass the product of 5 and counter to v_result
+      DBMS_OUTPUT.PUT_LINE('5'||' x '||v_counter||' = '||v_result); -- Displays the output
+      v_counter := v_counter + 1; -- Increments the counter
+    END LOOP; -- Ends Loop
+END;
+/
+
+----------------------------------------------------------------------------------------------
+-- Result
+----------------------------------------------------------------------------------------------
+
+5 x 0 = 0                                                                       
+5 x 1 = 5                                                                       
+5 x 2 = 10                                                                      
+5 x 3 = 15                                                                      
+5 x 4 = 20                                                                      
+5 x 5 = 25                                                                      
+5 x 6 = 30                                                                      
+5 x 7 = 35                                                                      
+5 x 8 = 40                                                                      
+5 x 9 = 45                                                                      
+5 x 10 = 50                                                                     
+5 x 11 = 55                                                                     
+5 x 12 = 60                                                                     
+
+PL/SQL procedure successfully completed.
+

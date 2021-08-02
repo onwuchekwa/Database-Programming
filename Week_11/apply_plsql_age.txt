@@ -1,0 +1,30 @@
+
+Table created.
+
+
+Sequence created.
+
+
+1 row created.
+
+
+Trigger created.
+
+  friends_list_s1.NEXTVAL
+  *
+ERROR at line 3:
+ORA-20101: Ferdinand Arthur's age of 30 is greater or equals to the minimum age
+required to be accepted as a friend
+ORA-06512: at "STUDENT.FRIENDS_LIST_TRG", line 7
+ORA-04088: error during execution of trigger 'STUDENT.FRIENDS_LIST_TRG' 
+
+
+UPDATE friends_list
+       *
+ERROR at line 1:
+ORA-20101: Samuel Austin's age of 10 cannot be less than or equals to the
+current age of 15
+ORA-06512: at "STUDENT.FRIENDS_LIST_TRG", line 15
+ORA-04088: error during execution of trigger 'STUDENT.FRIENDS_LIST_TRG' 
+
+

@@ -1,0 +1,18 @@
+
+Function created.
+
+
+Non-Leap Year      Leap Year          31-Day Year        30-Day Year            
+------------------ ------------------ ------------------ ------------------     
+28-FEB-10          29-FEB-12          31-MAR-14          30-APR-14              
+
+
+Non-Leap Year      Leap Year          31-Day Year        30-Day Year            
+------------------ ------------------ ------------------ ------------------     
+28-FEB-10          29-FEB-12          31-MAR-14          30-APR-14              
+
+
+Non-Leap Year      Leap Year          31-Day Year        30-Day Year            
+------------------ ------------------ ------------------ ------------------     
+28-FEB-10          29-FEB-12          31-MAR-14          30-APR-14              
+
